@@ -1,0 +1,17 @@
+server/tmp
+server/out-tsc
+
+server/node_modules
+server/npm-debug.log*
+server/yarn-debug.log*
+server/yarn-error.log*
+server/.pnp
+server/.pnp.js
+
+.vscode/*
+.idea
+
+server/.env
+
+node_modules
+server/package-lock.json

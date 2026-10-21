@@ -1,0 +1,1 @@
+> Postgres bigint columns (size_bytes, used_bytes, quota_bytes) come back from pg as strings, and the generated types will reflect that. This is intentional, because JavaScript numbers can lose precision at huge values. For this project, convert with Number() at the API boundary, which is safe up to about 9 petabytes.
