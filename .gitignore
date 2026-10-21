@@ -9,7 +9,7 @@ server/.pnp
 server/.pnp.js
 
 .vscode/*
-.idea
+.idea/*
 
 server/.env
 
