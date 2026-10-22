@@ -13,5 +13,4 @@ server/.pnp.js
 
 server/.env
 
-node_modules
 server/package-lock.json
